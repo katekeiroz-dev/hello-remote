@@ -1,3 +1,4 @@
 import sys
 
-print("hello {}".fomat(sys.argv[1]))
+name = sys.argv[1]
+print("hello {}".fomat(name))
